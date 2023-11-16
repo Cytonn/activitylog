@@ -1,11 +1,9 @@
-<?php
-
-namespace Spatie\Activitylog;
+<?php namespace Spatie\Activitylog;
 
 use Illuminate\Support\Facades\Facade;
 
-class ActivitylogFacade extends Facade
-{
+class ActivityLogFacade extends Facade {
+
     /**
      * Get the registered name of the component.
      *
@@ -13,6 +11,8 @@ class ActivitylogFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
+
         return 'activity';
     }
+
 }

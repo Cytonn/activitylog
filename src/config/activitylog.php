@@ -1,5 +1,4 @@
 <?php
-
 return [
 
     /*
@@ -11,7 +10,8 @@ return [
     | Laravel logger handler
     |
     */
-    'alsoLogInDefaultLog' => true,
+    'alsoLogInDefaultLog'        => true,
+
 
     /*
     |--------------------------------------------------------------------------
@@ -22,39 +22,5 @@ return [
     | specified here will be deleted
     |
     */
-    'deleteRecordsOlderThanMonths' => 2,
-
-    /*
-    |--------------------------------------------------------------------------
-    | Fallback user id if no user is logged in
-    |--------------------------------------------------------------------------
-    |
-    | If you don't specify a user id when logging some activity and no
-    | user is logged in, this id will be used.
-    |
-    */
-    'defaultUserId' => '',
-
-    /*
-    |--------------------------------------------------------------------------
-    | Handler that is called before logging is done
-    |--------------------------------------------------------------------------
-    |
-    | If you want to disable logging based on some custom conditions, create
-    | a handler class that implements the BeforeHandlerInterface and
-    | reference it here.
-    |
-    */
-    'beforeHandler' => null,
-    
-    /*
-    |--------------------------------------------------------------------------
-    | The class name for the related user model
-    |--------------------------------------------------------------------------
-    |
-    | This can be a class name or null. If null the model will be determined 
-    | from Laravel's auth configuration.
-    |
-    */
-    'userModel' => null,
-];
+        'deleteRecordsOlderThanMonths'        => 2,
+    ];
